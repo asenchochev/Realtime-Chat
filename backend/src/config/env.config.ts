@@ -6,5 +6,6 @@ export const Env = {
     JWT_SECRET: getEnv("JWT_SECRET"),
     NODE_ENV: getEnv("NODE_ENV", "development"),
     JWT_EXPIRES_IN: getEnv("JWT_EXPIRES_IN", "1d"),
+    FRONTEND_ORIGIN: getEnv("FRONTEND_ORIGIN", "http://localhost:5173"),
 
 } as const;
